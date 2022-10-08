@@ -12,7 +12,7 @@ Gerenciamento de contas feito por [João Pedro Monção](https://github.com/jpmo
 
 ## ⏩Executando
 
-![Execute o projeto clicando aqui](https://jpmoncao.github.io/gerenciamento-de-casas)
+[Execute o projeto clicando aqui](https://jpmoncao.github.io/gerenciamento-de-casas)
 
 
 ## ✔️Melhorias
