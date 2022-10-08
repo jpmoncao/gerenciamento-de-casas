@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de casas | Liste aqui as suas casas!</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/home-registration.js"></script>
+</head>
+
+<body onload="reloadList()">
+    <main>
+        <form class="form" method="post">
+            <p>
+                <label for="number">Número da residencia:</label>
+                <input type="number" name="number" id="number">
+            </p>
+
+            <p>
+                <label for="neighborhood">Bairro:</label>
+                <input type="text" name="neighborhood" id="neighborhood">
+            </p>
+
+            <p>
+                <label for="city">Cidade:</label>
+                <input type="text" name="city" id="city">
+            </p>
+
+            <p>
+                <label for="area">Área da casa:</label>
+                <input type="number" name="area" id="area">
+            </p>
+
+            <button onclick="cadasterHome()" type="button">Adicionar casa</button>
+        </form>
+
+        <div class="home-list">
+        </div>
+
+    </main>
+</body>
+
+</html>

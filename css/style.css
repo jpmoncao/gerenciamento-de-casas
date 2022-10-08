@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    text-indent: 4rem;
+}
+
+.form button {
+    display: inline;
+    width: 7.5rem;
+    height: 1.5rem;
+    padding: 0px 6px;
+    border: 2px solid black;
+    outline: none;
+    margin-left: 4rem;
+    border-radius: 12px;
+}
+
+
+.home-list {
+    width: 60%;
+}
+
+.home-list-children {
+    padding: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 1em;
+    margin: 10px 0px;
+}
+
+.home-list-children>p {
+    display: inline-block;
+}
+
+.home-list-children>p::after {
+    content: '  | ';
+    opacity: 0.45;
+}
+
+.home-list-children-buttons {
+    display: inline;
+}
+
+.home-list-children-buttons button {
+    display: inline;
+    padding: 4px 6px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 12px;
+}
